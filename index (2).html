@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arun K — Digital Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #0ea5e9;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #0284c7;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+    }
+    h2 {
+      color: #0ea5e9;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    .card {
+      background: #f3f4f6;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #0ea5e9;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+    .contact-item {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .contact-item a {
+      text-decoration: none;
+      color: #0284c7;
+      font-weight: bold;
+    }
+    /* About Me profile card */
+    .about-card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap; /* responsive for mobile */
+      justify-content: center;
+    }
+    .about-photo {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0ea5e9;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .about-text {
+      flex: 1;
+      font-size: 18px;
+      min-width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arun K's Digital Portfolio</h1>
+    <p>Welcome to my personal space</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="card about-card">
+        <img src="https://github.com/nithiii-15/Saranya-photo/blob/466b3bda322071af253f7e2934267f99c49e54ee/24BSDS206.JPG?raw=true" 
+             alt="Arun K Photo" class="about-photo">
+        <div class="about-text">
+          <p>Hello! I am <b>Arun K</b>, a student passionate about data science, programming, and continuous learning. I enjoy building projects that solve real-world problems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Cafe Management System using Python</h3>
+        <p>A software project designed to manage café operations such as order management, billing, and inventory control, built using Python for efficient business handling.</p>
+      </div>
+      <div class="card">
+        <h3>AI-Based T-Shirt Design Recommendation System</h3>
+        <p>An AI-powered system that recommends creative and personalized T-shirt designs based on user preferences, fashion trends, and style analysis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Advanced Excel</li>
+          <li>Power BI</li>
+          <li>Problem Solving</li>
+          <li>Technical Thinking</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="container">
+      <h2>Achievements</h2>
+      <div class="card">
+        <ul>
+          <li>Completed Certification in Python Programming</li>
+          <li>Completed Certification in Graphic Designing</li>
+          <li>Completed Certification in Microsoft Excel</li>
+          <li>Completed Certification in Power BI</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="card">
+        <p class="contact-item">Email: 
+          <a href="mailto:24bsds206arunk@skacas.ac.in">24bsds206arunk@skacas.ac.in</a>
+        </p>
+        <p class="contact-item">Phone: 
+          <a href="tel:9443146670">94431 46670</a>
+        </p>
+        <p class="contact-item">LinkedIn: 
+          <a href="https://www.linkedin.com/in/arun-k-4561a6308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            linkedin.com/in/arun-k
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Arun K's Digital Portfolio</p>
+  </footer>
+</body>
+</html>
